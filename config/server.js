@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get('/', (req, res) => {res.send('안녕! Fadilla disini!');});
+app.get('/', (req, res) => {res.send('Hi! Fadilla disini!');});
 
 app.use('/booking_materi', booking_materiRouter);
 app.use('/booking', bookingRouter);
