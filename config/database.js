@@ -9,25 +9,27 @@ const port = process.env.PORT || 3000;
 
 module.exports = {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "db_name",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": db_user,
+    "password": db_password,
+    "database": db_name,
+    "host": db_host,
+    "dialect": "mysql",
+    "port": db_port
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": db_user,
+    "password": db_password,
+    "database": db_name,
+    "host": db_host,
+    "dialect": "mysql",
+    "port": db_port
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": db_user,
+    "password": db_password,
+    "database": db_name,
+    "host": db_host,
+    "dialect": "mysql",
+    "port": db_port
   }
 }
-
