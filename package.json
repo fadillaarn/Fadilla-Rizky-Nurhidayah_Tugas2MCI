@@ -1,0 +1,29 @@
+{
+  "name": "tugas2mci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon config/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadillaarn/Fadilla-Rizky-Nurhidayah_Tugas2MCI.git"
+  },
+  "author": "fadillaarn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadillaarn/Fadilla-Rizky-Nurhidayah_Tugas2MCI/issues"
+  },
+  "homepage": "https://github.com/fadillaarn/Fadilla-Rizky-Nurhidayah_Tugas2MCI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.30.0",
+    "sequelize-cli": "^6.6.0"
+  }
+}
